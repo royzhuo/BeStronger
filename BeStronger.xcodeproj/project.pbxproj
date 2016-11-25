@@ -14,6 +14,8 @@
 		B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CE051DE54D080062DD90 /* BeStronger.xcdatamodeld */; };
 		B0E8CE091DE54D080062DD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E8CE081DE54D080062DD90 /* Assets.xcassets */; };
 		B0E8CE0C1DE54D080062DD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E8CE0A1DE54D080062DD90 /* LaunchScreen.storyboard */; };
+		B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB2D731DE8806200370161 /* NSThreadController.m */; };
+		B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB2D771DE8A15100370161 /* TicketSaleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		B0E8CE081DE54D080062DD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E8CE0B1DE54D080062DD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0E8CE0D1DE54D080062DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EB2D721DE8806200370161 /* NSThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadController.h; sourceTree = "<group>"; };
+		B0EB2D731DE8806200370161 /* NSThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadController.m; sourceTree = "<group>"; };
+		B0EB2D761DE8A15100370161 /* TicketSaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketSaleManager.h; sourceTree = "<group>"; };
+		B0EB2D771DE8A15100370161 /* TicketSaleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketSaleManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		B0E8CDF81DE54D080062DD90 /* BeStronger */ = {
 			isa = PBXGroup;
 			children = (
+				B0EB2D751DE8A0E000370161 /* NSThread Test Case */,
 				B0E8CDFC1DE54D080062DD90 /* AppDelegate.h */,
 				B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */,
 				B0E8CDFF1DE54D080062DD90 /* ViewController.h */,
@@ -80,6 +87,17 @@
 				B0E8CDFA1DE54D080062DD90 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EB2D751DE8A0E000370161 /* NSThread Test Case */ = {
+			isa = PBXGroup;
+			children = (
+				B0EB2D721DE8806200370161 /* NSThreadController.h */,
+				B0EB2D731DE8806200370161 /* NSThreadController.m */,
+				B0EB2D761DE8A15100370161 /* TicketSaleManager.h */,
+				B0EB2D771DE8A15100370161 /* TicketSaleManager.m */,
+			);
+			name = "NSThread Test Case";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +174,10 @@
 			files = (
 				B0E8CE011DE54D080062DD90 /* ViewController.m in Sources */,
 				B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */,
+				B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */,
 				B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */,
 				B0E8CDFB1DE54D080062DD90 /* main.m in Sources */,
+				B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
