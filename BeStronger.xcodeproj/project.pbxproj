@@ -16,6 +16,7 @@
 		B0E8CE0C1DE54D080062DD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E8CE0A1DE54D080062DD90 /* LaunchScreen.storyboard */; };
 		B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB2D731DE8806200370161 /* NSThreadController.m */; };
 		B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB2D771DE8A15100370161 /* TicketSaleManager.m */; };
+		B0FFBF2B1DE9752D00B8BE7C /* TestSingger.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FFBF2A1DE9752D00B8BE7C /* TestSingger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		B0EB2D731DE8806200370161 /* NSThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadController.m; sourceTree = "<group>"; };
 		B0EB2D761DE8A15100370161 /* TicketSaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketSaleManager.h; sourceTree = "<group>"; };
 		B0EB2D771DE8A15100370161 /* TicketSaleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketSaleManager.m; sourceTree = "<group>"; };
+		B0FFBF291DE9752D00B8BE7C /* TestSingger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSingger.h; sourceTree = "<group>"; };
+		B0FFBF2A1DE9752D00B8BE7C /* TestSingger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSingger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		B0E8CDF81DE54D080062DD90 /* BeStronger */ = {
 			isa = PBXGroup;
 			children = (
+				B0FFBF281DE9750D00B8BE7C /* Singer */,
 				B0EB2D751DE8A0E000370161 /* NSThread Test Case */,
 				B0E8CDFC1DE54D080062DD90 /* AppDelegate.h */,
 				B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */,
@@ -98,6 +102,15 @@
 				B0EB2D771DE8A15100370161 /* TicketSaleManager.m */,
 			);
 			name = "NSThread Test Case";
+			sourceTree = "<group>";
+		};
+		B0FFBF281DE9750D00B8BE7C /* Singer */ = {
+			isa = PBXGroup;
+			children = (
+				B0FFBF291DE9752D00B8BE7C /* TestSingger.h */,
+				B0FFBF2A1DE9752D00B8BE7C /* TestSingger.m */,
+			);
+			name = Singer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FFBF2B1DE9752D00B8BE7C /* TestSingger.m in Sources */,
 				B0E8CE011DE54D080062DD90 /* ViewController.m in Sources */,
 				B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */,
 				B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */,
