@@ -10,6 +10,7 @@
 
 #import "TicketSaleManager.h"
 #import "TestSingger.h"
+#import "Calaculator.h"
 
 @interface NSThreadController ()
 
@@ -53,6 +54,14 @@
     [button3 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button3 addTarget:self action:@selector(clickSingle) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button3];
+    
+    UIButton *button5=[UIButton buttonWithType:UIButtonTypeCustom];
+    button5.frame=CGRectMake(100, 320, 200,60);
+    button5.backgroundColor=[UIColor blueColor];
+    [button5 setTitle:@"单例宏" forState:UIControlStateNormal];
+    [button5 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [button5 addTarget:self action:@selector(clickHongSingle) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button5];
     
     UIButton *button4=[UIButton buttonWithType:UIButtonTypeCustom];
     button4.frame=CGRectMake(100, 250, 200,60);
@@ -239,6 +248,15 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
     dispatch_once(&onceToken, ^{
         NSLog(@"once click");
     });
+}
+
+//宏定义线程
+-(void) clickHongSingle
+{
+
+   int result= [[Calaculator sharedInstance]add:2 andwith:3];
+    NSLog(@"result:%d",result);
+
 }
 
 #pragma mark dispatch_after 时间延迟

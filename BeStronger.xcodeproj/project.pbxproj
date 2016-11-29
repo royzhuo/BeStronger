@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0C8A9731DEDAD4500EB654A /* Calaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8A9721DEDAD4500EB654A /* Calaculator.m */; };
 		B0E8CDFB1DE54D080062DD90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFA1DE54D080062DD90 /* main.m */; };
 		B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */; };
 		B0E8CE011DE54D080062DD90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CE001DE54D080062DD90 /* ViewController.m */; };
@@ -20,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0C8A96D1DEDA96300EB654A /* BeStronger.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeStronger.pch; sourceTree = "<group>"; };
+		B0C8A9701DEDABC600EB654A /* TestSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSingle.h; sourceTree = "<group>"; };
+		B0C8A9711DEDAD4500EB654A /* Calaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calaculator.h; sourceTree = "<group>"; };
+		B0C8A9721DEDAD4500EB654A /* Calaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calaculator.m; sourceTree = "<group>"; };
 		B0E8CDF61DE54D080062DD90 /* BeStronger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeStronger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E8CDFA1DE54D080062DD90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0E8CDFC1DE54D080062DD90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0C8A96C1DEDA8F900EB654A /* NSUrlTest */ = {
+			isa = PBXGroup;
+			children = (
+				B0E8CE001DE54D080062DD90 /* ViewController.m */,
+				B0E8CDFF1DE54D080062DD90 /* ViewController.h */,
+			);
+			name = NSUrlTest;
+			sourceTree = "<group>";
+		};
+		B0C8A96F1DEDABAA00EB654A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B0C8A9701DEDABC600EB654A /* TestSingle.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		B0E8CDED1DE54D080062DD90 = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +91,12 @@
 		B0E8CDF81DE54D080062DD90 /* BeStronger */ = {
 			isa = PBXGroup;
 			children = (
+				B0C8A96F1DEDABAA00EB654A /* Tools */,
+				B0C8A96C1DEDA8F900EB654A /* NSUrlTest */,
 				B0FFBF281DE9750D00B8BE7C /* Singer */,
 				B0EB2D751DE8A0E000370161 /* NSThread Test Case */,
 				B0E8CDFC1DE54D080062DD90 /* AppDelegate.h */,
 				B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */,
-				B0E8CDFF1DE54D080062DD90 /* ViewController.h */,
-				B0E8CE001DE54D080062DD90 /* ViewController.m */,
 				B0E8CE021DE54D080062DD90 /* Main.storyboard */,
 				B0E8CE081DE54D080062DD90 /* Assets.xcassets */,
 				B0E8CE0A1DE54D080062DD90 /* LaunchScreen.storyboard */,
@@ -89,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				B0E8CDFA1DE54D080062DD90 /* main.m */,
+				B0C8A96D1DEDA96300EB654A /* BeStronger.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,6 +132,8 @@
 			children = (
 				B0FFBF291DE9752D00B8BE7C /* TestSingger.h */,
 				B0FFBF2A1DE9752D00B8BE7C /* TestSingger.m */,
+				B0C8A9711DEDAD4500EB654A /* Calaculator.h */,
+				B0C8A9721DEDAD4500EB654A /* Calaculator.m */,
 			);
 			name = Singer;
 			sourceTree = "<group>";
@@ -188,6 +213,7 @@
 				B0FFBF2B1DE9752D00B8BE7C /* TestSingger.m in Sources */,
 				B0E8CE011DE54D080062DD90 /* ViewController.m in Sources */,
 				B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */,
+				B0C8A9731DEDAD4500EB654A /* Calaculator.m in Sources */,
 				B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */,
 				B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */,
 				B0E8CDFB1DE54D080062DD90 /* main.m in Sources */,
@@ -257,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +338,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XLVBU7S63;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeStronger/BeStronger.pch";
 				INFOPLIST_FILE = BeStronger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -325,6 +353,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XLVBU7S63;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeStronger/BeStronger.pch";
 				INFOPLIST_FILE = BeStronger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
