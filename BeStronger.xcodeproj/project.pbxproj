@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24AFF9CC61EECC840C285029 /* libPods-BeStronger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D670D47456172972A3904D7 /* libPods-BeStronger.a */; };
+		B06B3C5F1DEE81DC00225B4C /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B3C5E1DEE81DC00225B4C /* HttpTool.m */; };
 		B0C8A9731DEDAD4500EB654A /* Calaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8A9721DEDAD4500EB654A /* Calaculator.m */; };
 		B0E8CDFB1DE54D080062DD90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFA1DE54D080062DD90 /* main.m */; };
 		B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D670D47456172972A3904D7 /* libPods-BeStronger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeStronger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38421D5BBB601D062148E47B /* Pods-BeStronger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeStronger.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeStronger/Pods-BeStronger.release.xcconfig"; sourceTree = "<group>"; };
+		B06B3C5D1DEE81DC00225B4C /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		B06B3C5E1DEE81DC00225B4C /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		B0C8A96D1DEDA96300EB654A /* BeStronger.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeStronger.pch; sourceTree = "<group>"; };
 		B0C8A9701DEDABC600EB654A /* TestSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSingle.h; sourceTree = "<group>"; };
 		B0C8A9711DEDAD4500EB654A /* Calaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calaculator.h; sourceTree = "<group>"; };
@@ -42,6 +48,7 @@
 		B0EB2D771DE8A15100370161 /* TicketSaleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketSaleManager.m; sourceTree = "<group>"; };
 		B0FFBF291DE9752D00B8BE7C /* TestSingger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSingger.h; sourceTree = "<group>"; };
 		B0FFBF2A1DE9752D00B8BE7C /* TestSingger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSingger.m; sourceTree = "<group>"; };
+		EA3190FDBD27C1F6C8749276 /* Pods-BeStronger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeStronger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeStronger/Pods-BeStronger.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AFF9CC61EECC840C285029 /* libPods-BeStronger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				B0C8A9701DEDABC600EB654A /* TestSingle.h */,
+				B06B3C5D1DEE81DC00225B4C /* HttpTool.h */,
+				B06B3C5E1DEE81DC00225B4C /* HttpTool.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -77,6 +87,8 @@
 			children = (
 				B0E8CDF81DE54D080062DD90 /* BeStronger */,
 				B0E8CDF71DE54D080062DD90 /* Products */,
+				D68B228EC84A9A24154FE58B /* Pods */,
+				F8B8E929E4A9C14BCBA98260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +150,23 @@
 			name = Singer;
 			sourceTree = "<group>";
 		};
+		D68B228EC84A9A24154FE58B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA3190FDBD27C1F6C8749276 /* Pods-BeStronger.debug.xcconfig */,
+				38421D5BBB601D062148E47B /* Pods-BeStronger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8B8E929E4A9C14BCBA98260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D670D47456172972A3904D7 /* libPods-BeStronger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0E8CE101DE54D080062DD90 /* Build configuration list for PBXNativeTarget "BeStronger" */;
 			buildPhases = (
+				7D792688BACA90E6FB07B647 /* [CP] Check Pods Manifest.lock */,
 				B0E8CDF21DE54D080062DD90 /* Sources */,
 				B0E8CDF31DE54D080062DD90 /* Frameworks */,
 				B0E8CDF41DE54D080062DD90 /* Resources */,
+				B1047992B6F60DF1E5C5C993 /* [CP] Embed Pods Frameworks */,
+				4B30DCE359CA4DCEC955A6EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +237,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B30DCE359CA4DCEC955A6EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeStronger/Pods-BeStronger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D792688BACA90E6FB07B647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1047992B6F60DF1E5C5C993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeStronger/Pods-BeStronger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0E8CDF21DE54D080062DD90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,6 +298,7 @@
 				B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */,
 				B0E8CDFB1DE54D080062DD90 /* main.m in Sources */,
 				B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */,
+				B06B3C5F1DEE81DC00225B4C /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +416,7 @@
 		};
 		B0E8CE111DE54D080062DD90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3190FDBD27C1F6C8749276 /* Pods-BeStronger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XLVBU7S63;
@@ -350,6 +432,7 @@
 		};
 		B0E8CE121DE54D080062DD90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38421D5BBB601D062148E47B /* Pods-BeStronger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8XLVBU7S63;
