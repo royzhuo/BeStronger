@@ -14,4 +14,5 @@
 
 
 #import "TestSingle.h"
+#import "HttpTool.h"
 #endif /* BeStronger_pch */

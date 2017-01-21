@@ -108,6 +108,24 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--TestAF Controller-->
+        <scene sceneID="WKs-xC-cNH">
+            <objects>
+                <viewController id="Jew-Kx-7ej" customClass="TestAFController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IW4-gJ-1Xy"/>
+                        <viewControllerLayoutGuide type="bottom" id="MQ8-Ma-Lg9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wnw-VO-JXh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08K-B2-S83" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169" y="842"/>
+        </scene>
         <!--Thread Controller-->
         <scene sceneID="mO5-jz-dcJ">
             <objects>

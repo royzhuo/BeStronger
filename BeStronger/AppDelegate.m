@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "NSThreadController.h"
+#import "TestAFController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    TestAFController *afController=[[TestAFController alloc]init];
+    [self.window setRootViewController:afController];
+   // [self.window makeKeyAndVisible];
+    
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [HttpTool sharedInstance].baseUrl=[NSURL URLWithString:@"http://192.168.1.101:8080"];
+    
+    NSLog(@"uiwindow:%@",self.window);
+    NSLog(@"rootview:%@",self.window.rootViewController);
     
         return YES;
 }

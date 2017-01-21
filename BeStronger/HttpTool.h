@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface HttpTool : NSObject
+AS_SINGLETON(HttpTool)
+
+@property(nonatomic,strong) NSString *baseUrl;
+
+-(void) Get:(NSString *) url parameters:(NSDictionary *) dic;
 
 @end

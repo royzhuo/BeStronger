@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		24AFF9CC61EECC840C285029 /* libPods-BeStronger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D670D47456172972A3904D7 /* libPods-BeStronger.a */; };
 		B06B3C5F1DEE81DC00225B4C /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B3C5E1DEE81DC00225B4C /* HttpTool.m */; };
+		B085AAFE1DEF0CA800668D95 /* TestAFController.m in Sources */ = {isa = PBXBuildFile; fileRef = B085AAFD1DEF0CA800668D95 /* TestAFController.m */; };
 		B0C8A9731DEDAD4500EB654A /* Calaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8A9721DEDAD4500EB654A /* Calaculator.m */; };
 		B0E8CDFB1DE54D080062DD90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFA1DE54D080062DD90 /* main.m */; };
 		B0E8CDFE1DE54D080062DD90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8CDFD1DE54D080062DD90 /* AppDelegate.m */; };
@@ -27,6 +28,8 @@
 		38421D5BBB601D062148E47B /* Pods-BeStronger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeStronger.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeStronger/Pods-BeStronger.release.xcconfig"; sourceTree = "<group>"; };
 		B06B3C5D1DEE81DC00225B4C /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
 		B06B3C5E1DEE81DC00225B4C /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		B085AAFC1DEF0CA800668D95 /* TestAFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAFController.h; sourceTree = "<group>"; };
+		B085AAFD1DEF0CA800668D95 /* TestAFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAFController.m; sourceTree = "<group>"; };
 		B0C8A96D1DEDA96300EB654A /* BeStronger.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeStronger.pch; sourceTree = "<group>"; };
 		B0C8A9701DEDABC600EB654A /* TestSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSingle.h; sourceTree = "<group>"; };
 		B0C8A9711DEDAD4500EB654A /* Calaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calaculator.h; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B085AAFB1DEF077800668D95 /* AFNetWorkTest */ = {
+			isa = PBXGroup;
+			children = (
+				B085AAFC1DEF0CA800668D95 /* TestAFController.h */,
+				B085AAFD1DEF0CA800668D95 /* TestAFController.m */,
+			);
+			name = AFNetWorkTest;
+			sourceTree = "<group>";
+		};
 		B0C8A96C1DEDA8F900EB654A /* NSUrlTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		B0E8CDF81DE54D080062DD90 /* BeStronger */ = {
 			isa = PBXGroup;
 			children = (
+				B085AAFB1DEF077800668D95 /* AFNetWorkTest */,
 				B0C8A96F1DEDABAA00EB654A /* Tools */,
 				B0C8A96C1DEDA8F900EB654A /* NSUrlTest */,
 				B0FFBF281DE9750D00B8BE7C /* Singer */,
@@ -296,6 +309,7 @@
 				B0C8A9731DEDAD4500EB654A /* Calaculator.m in Sources */,
 				B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */,
 				B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */,
+				B085AAFE1DEF0CA800668D95 /* TestAFController.m in Sources */,
 				B0E8CDFB1DE54D080062DD90 /* main.m in Sources */,
 				B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */,
 				B06B3C5F1DEE81DC00225B4C /* HttpTool.m in Sources */,
