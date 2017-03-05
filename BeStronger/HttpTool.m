@@ -23,6 +23,8 @@ DEF_SINGLETON(HttpTool)
     if (dic==nil||[dic count]==0 ) {
         
     }
+   NSString *viersion= [UIDevice currentDevice].systemVersion;
+    NSLog(@"%@",viersion);
     
     
     
