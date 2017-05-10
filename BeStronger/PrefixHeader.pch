@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BeStronger
+//
+//  Created by Roy on 17/3/13.
+//  Copyright © 2017年 Roy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//#import "tool.h"
+
+#endif 
