@@ -28,6 +28,8 @@
 		B0A0DC471E793FD900BC733A /* StoryBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A0DC461E793FD900BC733A /* StoryBoardController.m */; };
 		B0AADD541E7A4FCB00F042E1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AADD531E7A4FCB00F042E1 /* User.m */; };
 		B0AADD571E7A555100F042E1 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AADD561E7A555100F042E1 /* Menu.m */; };
+		B0AD442F1EC2EE68005E49B7 /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD442E1EC2EE68005E49B7 /* HealthKitManager.m */; };
+		B0AD44321EC4CF2F005E49B7 /* RunController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AD44311EC4CF2F005E49B7 /* RunController.m */; };
 		B0AF9A221E9A0AF800BFE098 /* NSObject+Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9A211E9A0AF800BFE098 /* NSObject+Tips.m */; };
 		B0AF9A251E9A10F100BFE098 /* TimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9A241E9A10F100BFE098 /* TimeTool.m */; };
 		B0AF9A281E9A177F00BFE098 /* RegisterSexController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AF9A271E9A177F00BFE098 /* RegisterSexController.m */; };
@@ -95,6 +97,10 @@
 		B0AADD531E7A4FCB00F042E1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		B0AADD551E7A555100F042E1 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		B0AADD561E7A555100F042E1 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		B0AD442D1EC2EE68005E49B7 /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		B0AD442E1EC2EE68005E49B7 /* HealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		B0AD44301EC4CF2F005E49B7 /* RunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunController.h; sourceTree = "<group>"; };
+		B0AD44311EC4CF2F005E49B7 /* RunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunController.m; sourceTree = "<group>"; };
 		B0AF9A201E9A0AF800BFE098 /* NSObject+Tips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tips.h"; sourceTree = "<group>"; };
 		B0AF9A211E9A0AF800BFE098 /* NSObject+Tips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tips.m"; sourceTree = "<group>"; };
 		B0AF9A231E9A10F100BFE098 /* TimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTool.h; sourceTree = "<group>"; };
@@ -225,6 +231,8 @@
 				B0AADD531E7A4FCB00F042E1 /* User.m */,
 				B0AADD551E7A555100F042E1 /* Menu.h */,
 				B0AADD561E7A555100F042E1 /* Menu.m */,
+				B0AD442D1EC2EE68005E49B7 /* HealthKitManager.h */,
+				B0AD442E1EC2EE68005E49B7 /* HealthKitManager.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -272,6 +280,8 @@
 			children = (
 				B0D80EAC1E782AC7001C89FD /* FirstViewController.h */,
 				B0D80EAD1E782AC7001C89FD /* FirstViewController.m */,
+				B0AD44301EC4CF2F005E49B7 /* RunController.h */,
+				B0AD44311EC4CF2F005E49B7 /* RunController.m */,
 			);
 			name = firstViewController;
 			sourceTree = "<group>";
@@ -531,6 +541,7 @@
 				B0EB2D781DE8A15100370161 /* TicketSaleManager.m in Sources */,
 				B07165B31EB77A2C00DAAC4D /* MyDataController.m in Sources */,
 				B0AF9A221E9A0AF800BFE098 /* NSObject+Tips.m in Sources */,
+				B0AD442F1EC2EE68005E49B7 /* HealthKitManager.m in Sources */,
 				B0266C4D1EAD222F000A6397 /* UpdatePwdController.m in Sources */,
 				B0CC95821E7C562B00CEB72B /* MyShareCell.m in Sources */,
 				B0E8CE071DE54D080062DD90 /* BeStronger.xcdatamodeld in Sources */,
@@ -546,6 +557,7 @@
 				B0EB2D741DE8806200370161 /* NSThreadController.m in Sources */,
 				B06B3C5F1DEE81DC00225B4C /* HttpTool.m in Sources */,
 				B0AF9A251E9A10F100BFE098 /* TimeTool.m in Sources */,
+				B0AD44321EC4CF2F005E49B7 /* RunController.m in Sources */,
 				B0010E7B1EBF656E00EA8BFF /* OrderPlanController.m in Sources */,
 				B07165AD1EB779CC00DAAC4D /* MyInfoController.m in Sources */,
 				B0AF9A2B1E9A17A200BFE098 /* RegisterHeightController.m in Sources */,
